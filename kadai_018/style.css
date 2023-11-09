@@ -8,7 +8,7 @@
     text-align: center;
 }
 .top-child {
-    display: inline;
+    display: inline-block;
     width: 20%;
     margin-left: auto;
     margin-right: auto;

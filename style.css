@@ -1,0 +1,980 @@
+/*
+Theme Name: SAAMURAI 整体院
+Theme URI: https://example.com
+Description: SAMURAI ENGINEERのWordPress教材
+Version: 1.0.0
+Author: SAMURAI ENGINEER
+Author URI: https://example.com
+*/
+
+
+/* ホームページトップ */
+
+/* PC用 */
+@media screen and (min-width: 768px) {
+
+    #sp-about-img,#top-logo-sp,#about-content-sp
+    , #voice > #sp-back {
+        display: none;
+}
+header > .top-images-sp {
+    display: none;
+}
+
+#nav-pc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div > .carouselImg {
+    margin-top: -50px;
+    margin-bottom: -50px;
+   position: relative;
+   z-index: 10;
+   border-radius: 300px 0 0 300px;
+}
+.top-images {
+    margin-top: -50px;
+}
+
+#nav-pc > #top-list {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 12;
+}
+
+div > a:hover {
+    text-decoration: underline;
+}
+div > a:visited {
+    text-decoration: none;
+}
+
+div > a:link {
+    text-decoration: none;
+}
+
+div > a:active {
+   
+    text-decoration: none;
+}
+div > a {
+    color: white
+    
+}
+
+#top-content {
+    display: flex;
+    justify-content: center; 
+    background-image: 
+    radial-gradient(40px 40px, #F0F5E1,white),
+    radial-gradient(40px 40px, #F0F5E1,white);
+    background-position: 
+    top 80px right 60px,
+    top -120px right -70px;
+    background-repeat: 
+    no-repeat,
+    no-repeat;
+    background-color: white;
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+}
+
+#top-content > p {
+    writing-mode: vertical-rl; 
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 28px; 
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 8px;
+}
+
+
+/* ここまで〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜 */
+
+#news-en {
+    color: #468459;
+    font-size: 24px;
+    font-weight: bold;
+}
+#news-jp {
+    color: #468459;
+    font-size: 18px
+}
+#news {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.news {
+    color: black;
+}
+
+#news-left {
+    margin: auto;
+}
+#news-right {
+    margin: auto;
+
+}
+#news-left > #news-jp, #news-left > img {
+    margin-right: 20px;
+}
+
+#concept {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    background-image:
+    url("top-images/concept.png"),
+    url("top-images/icon-green.png");
+    background-position: 
+    top 10px left 40px,
+    bottom -10px right -80px;
+    background-repeat: 
+    no-repeat;
+}
+#concept-left {
+    width: 50%;
+    padding: 0 100px 0 200px;
+}
+
+#concept-right {
+    width: 50%;
+    padding: 0 200px 0 0;
+}
+#concept-left > .concept-before::before {
+    content: url("top-images/concept-before.png");
+}
+#concept-left > h2,#concept-left > h3 {
+    color: #468459;
+}
+
+#concept-left > p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2px;
+    font-style: normal;
+  }
+
+
+#course  {
+    background-color: #F0F5E1;
+    margin-top: -50px;
+    
+}
+#course-top {
+    text-align: center;
+}
+#course-top > h3 {
+    color: #468459;
+}
+#course-top > #course-title::after {
+    content: url("top-images/slash2.png");
+}
+
+#course-top >  #course-title::before {
+    content: url("top-images/slash1.png");
+}
+
+#course-content {
+    display: flex;
+    justify-content: center;
+    background-image:
+    url("top-images/concept.png"),
+    url("top-images/icon-green.png");
+    background-position: 
+    top 10px left 40px,
+    bottom -10px right -80px;
+    background-repeat: 
+    no-repeat;
+}
+#course-left,#course-right {
+    margin: 20px;
+}
+#course-left > h3, #course-right > h3 {
+    color:  #0C4324;
+
+}
+#course-button {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#voice-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 14;
+    width: 100%;
+}
+#voice > img {
+    width: 100%;
+}
+
+
+#voice-top > h3 {
+    color: #468459;
+    position: relative;
+    z-index: 11;
+}
+#voice-ba::after {
+    content: url("top-images/slash2.png");
+}
+
+#voice-ba::before {
+    content: url("top-images/slash1.png");
+}
+#white {
+    color: #468459;
+
+}
+
+#voice-top {
+    text-align: center;
+}
+#circle > #white {
+    border-radius: 50%;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+#circle {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.voice-person > h3 {
+    color:#0C4324;
+}
+.voice-person > p {
+    width: 244px;
+}
+.voice-person > img {
+    border-radius: 50%;
+}
+.voice-person {
+    margin: 20px;
+}
+#voice-button {
+    text-align: center;
+}
+    
+
+#info-content {
+    display: flex;
+    justify-content: center;
+}
+#infomation-left {
+    margin: 20px 5px 20px 200px;
+   
+}
+#infomation-right {
+    margin: 20px 200px 20px 5px;
+
+}
+#info-top {
+    text-align: center;
+}
+#infomation-left > h3 , #info-title {
+    color: #468459;
+}
+
+#infomation-left > img {
+    margin-bottom: 10px;
+}
+
+
+#info-title::after {
+    content: url("top-images/slash2.png");
+}
+
+#info-title::before {
+    content: url("top-images/slash1.png");
+}
+#info {
+    background-color: #F0F5E1;
+    margin-top: -50px;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: #F0F5E1;
+}
+#footer > a:hover {
+    text-decoration: underline;
+}
+#footer > a:visited {
+    text-decoration: none;
+}
+
+#footer > a:link {
+    text-decoration: none;
+}
+
+#footer > a:active {
+   
+    text-decoration: none;
+}
+#footer > a {
+    color: black;
+    margin: 10px;    
+}
+#last {
+    text-align: center;
+    background-color:#468459;
+   
+}
+#last > p {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+/* page-about */
+
+
+header > #about-img {
+    width: 70%;
+   position: relative;
+   border-radius: 300px 0 0 300px;
+}
+#nav-pc > #about-list {
+    display: flex;
+    align-items: center;
+}
+
+#about-list > a {
+    color: #468459;
+}
+
+#about-content {
+    text-align: center;
+    background-image: 
+    radial-gradient(60px 60px, #F0F5E1,white);
+    background-position: top 20px right 20px;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 30%;
+    float: left;
+    margin-top: 70px;
+}
+
+#about-content > p {
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 28px; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px 0 0 0;
+}
+
+#about-content > span {
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 18px; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: normal;
+}
+
+main > #aboutus {
+   margin-left: 30px;
+}
+
+#points {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#points > h3 {
+    color: #468459;
+}
+#point-title::after {
+    content: url("top-images/slash2.png");
+}
+
+#point-title::before {
+    content: url("top-images/slash1.png");
+}
+
+#point-content {
+    display: flex;
+    justify-content: center;
+}
+.point > h3 {
+    color:#0C4324;
+    text-align: center;
+}
+
+.point > img {
+    border-radius: 10%;
+}
+.point {
+    margin: 20px;
+}
+
+
+ /* スマホ隠す用 */
+ #nav-sp,
+ #menu-sp,
+ #sp-map {
+   display: none;
+ }
+}
+
+/* スマホ用 */
+
+@media screen and (max-width: 767px) {
+
+    body {
+        min-width: 375px;
+        margin: 0;
+    }
+    #nav-pc,#about-img,#voice > #pc-back, .top-images {
+        display: none;
+    }
+    header > .top-images {
+        display: none;
+    }
+
+    #menu-sp {
+        float: right;
+        padding: 10px 0 0 0;
+    }
+
+    #nav-sp {
+        display: none;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+    #close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    #logo-sp {
+        margin: 20px 0 30px 20px;
+    }
+
+     a {
+        display: block;
+      }
+      #nav-sp > a:link {
+        color: black;
+      }
+      #nav-sp > h3 {
+        color: #0C4324;
+        text-align: center;
+      }
+      #nav-sp > a:visited {
+        color: black;
+      }
+      #nav-sp > a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+      #nav-sp > a:active {
+        color: black;
+      }
+      #nav-sp > .menu {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        margin: 0;
+        height: 44px;
+        font-size: 16px;
+      }
+      #nav-sp > #button-sp {
+        text-align: center;
+      }
+      #sp-about-img {
+        width: 100%;
+        float: right;
+        border-radius: 0 0 0 100%;
+        margin-bottom: 10px;
+      }
+      #aboutus {
+        margin: 10px 0 0 10px;
+      }
+      #top-logo {
+        display: none;
+      }
+      #top-logo-sp {
+        float: left;
+        padding: 10px 0 0 0;
+      }
+      #about-content  {
+        color: white;
+      }
+     
+      
+   
+   
+#about-content-sp > p {
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 28px; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    padding: 0 0 20px 0;
+    position: absolute;
+    top: 430px;
+    left: 10px;
+    background-image: 
+    radial-gradient(35px 35px, #F0F5E1,white);
+    background-position: bottom -5px left -5px;
+    background-repeat: no-repeat;
+    background-color: white;
+   
+} 
+
+#about-content-sp > span {
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 18px; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: normal;
+    margin-left: 10px;
+    position: absolute;
+    
+   
+}
+     
+
+header > div {
+    display: flex;
+    position: relative;
+
+}
+
+ .carouselImg {
+   width: 70%;
+   border-radius:50% 0 0 50%;
+   margin: -10px 0 -10px 0;
+}
+
+
+
+#top-content {
+    background-image: 
+    radial-gradient(80px 80px, #F0F5E1,white),
+    radial-gradient(80px 80px, #F0F5E1,white);
+    background-position: 
+    top 40px right 80px,
+    top 10px right 80px;
+    background-repeat: 
+    no-repeat,
+    repeat;
+    background-color: white;
+    width: 30%;
+}
+
+#top-content > p {
+    writing-mode: vertical-rl; 
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 28px; 
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 8px;
+    padding-top: 50px;
+}
+/* スマホ用　トップ　コンテンツ */
+
+
+      /* スマホ用メイン */
+
+
+      #concept1 {
+        display: block;
+        justify-content: center;
+        margin: 30px 0 30px 0;
+        background-image:
+        url("top-images/concept.png"),
+        url("top-images/icon-green.png");
+        background-position: 
+        top 600px left -30px,
+        bottom -10px right -80px;
+        background-repeat: 
+        no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #concept2 {
+        display: block;
+        justify-content: center;
+        margin: 30px 0 30px 0;
+        background-image:
+        url("top-images/flow.png");
+        background-position: 
+        top 600px left -30px;
+        background-repeat: 
+        no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #concept-left {
+        order: 2;
+        padding: 30px;
+    }
+    
+    #concept-right > img {
+        order: 1;
+        width: 100%;
+    }
+
+    #concept-left > a {
+        display: none;
+    }
+    #concept-left > .concept-before::before {
+        content: url("top-images/concept-before.png");
+    }
+    #concept-left > h2,#concept-left > h3 {
+        color: #468459;
+    }
+    
+    #concept-left > p {
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 2px;
+        font-style: normal;
+      }
+        
+    
+    #points {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #points > h3 {
+        color: #468459;
+    }
+    #point-title::after {
+        content: url("top-images/slash2.png");
+    }
+    
+    #point-title::before {
+        content: url("top-images/slash1.png");
+    }
+    
+    #point-content {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .point > h3 {
+        color:#0C4324;
+        text-align: center;
+    }
+    
+    .point > img {
+        border-radius: 10%;
+        width: 90%;
+
+    }
+    #point-explain {
+        padding: 30px;
+    }
+ /* 中身　news スマホ */
+
+#news-en {
+    color: #468459;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+#news-jp {
+    color: #468459;
+    font-size: 18px;
+}
+
+.news {
+    color: #0C4324;
+    text-align: right;
+    margin-right: 60px;
+}
+
+
+#news {
+    display: block;
+
+}
+#news-sp {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#news-left-sp > span {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#news-right > a:link  {
+ text-decoration: none;
+  }
+
+  #news-right > a:visited {
+    text-decoration: none;
+  }
+
+  #news-right > a:hover {
+    text-decoration: underline;
+  }
+
+  #news-right > a:active {
+    text-decoration: none;
+  }
+
+
+
+
+
+    /* 中身　course スマホ */
+    #course  {
+        background-color: #F0F5E1;
+        margin-top: -50px;
+        padding: 30px;
+        
+    }
+    #course-top {
+        text-align: center;
+        padding: 0 30px 0 30px;
+    }
+    #course-top > h3 {
+        color: #468459;
+    }
+    #course-top > #course-title::after {
+        content: url("top-images/slash2.png");
+    }
+    
+    #course-top >  #course-title::before {
+        content: url("top-images/slash1.png");
+    }
+    
+    #course-content {
+        display: block;
+        justify-content: center;
+        background-image:
+        url("top-images/concept.png"),
+        url("top-images/icon-green.png");
+        background-position: 
+        top 10px left 40px,
+        bottom -10px right -80px;
+        background-repeat: 
+        no-repeat;
+    }
+   
+    #course-left > h3, #course-right > h3 {
+        color:  #0C4324;
+    }
+    #course-left > ul {
+        padding: 10px;
+        line-height: 40px;
+        
+    }
+    #course-right > ul {
+        padding: 10px;
+        line-height: 40px;
+    }
+    
+    #course-button {
+        text-align: center;
+    }
+
+
+    /* 中身　voice スマホ */
+        
+    #voice-content {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        z-index: 14;
+        width: 100%;
+    }
+    #voice > img {
+        width: 100%;
+    }
+    
+    
+    #voice-top > h3 {
+        color: #468459;
+        position: relative;
+        z-index: 11;
+    }
+    #voice-ba::after {
+        content: url("top-images/slash2.png");
+    }
+    
+    #voice-ba::before {
+        content: url("top-images/slash1.png");
+    }
+    #white {
+        color: #468459;
+    
+    }
+    
+    #voice-top {
+        text-align: center;
+    }
+    #circle > #white {
+        border-radius: 50%;
+        background-color: white;
+        height: 400px;
+        width: 400px;
+        margin-top: -100px;
+        margin-bottom: -100px;
+        padding: 50px 0 50px 0;
+        text-align: center;
+        position: relative;
+        z-index: 10;
+    }
+    #circle {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+    .voice-person > h3 {
+        color:#0C4324;
+    }
+    .voice-person > p {
+       margin: 0 auto;
+        text-align: center;
+    }
+    .voice-person > img {
+        border-radius: 50%;
+    }
+    .voice-person {
+        margin: 20px;
+
+    }
+    #voice-button {
+        text-align: center;
+    }
+
+    
+
+    /* スマホインフォ共有 */
+
+#info-content {
+    display: block;
+    justify-content: center;
+}
+
+#info-top {
+    text-align: center;
+}
+#infomation-left > h3 , #info-title {
+    color: #468459;
+}
+
+
+#infomation-left > img {
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#infomation-left > a {
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+#infomation-left > h3, #infomation-left > p{
+   margin-left: 30px;
+}
+
+
+#info-title::after {
+    content: url("top-images/slash2.png");
+}
+
+#info-title::before {
+    content: url("top-images/slash1.png");
+}
+#info {
+    background-color: #F0F5E1;
+    margin-top: -50px;
+}
+#infomation-right{
+    text-align: center;
+}
+#pc-map {
+    display: none;
+}
+
+#footer {
+    background-color: #F0F5E1;
+    text-align: center;
+
+}
+#footer > a:hover {
+    text-decoration: underline;
+    color: #0C4324
+}
+#footer > a:visited {
+    text-decoration: none;
+    color: #0C4324
+}
+
+#footer > a:link {
+    text-decoration: none;
+    color: #0C4324
+}
+
+#footer > a:active {
+    text-decoration: none;
+    color: #0C4324
+}
+#footer > a {
+    color: #0C4324;
+    padding: 30px;
+}
+#last {
+    text-align: center;
+    background-color:#468459;
+    padding: 0 10px 0 0 10px;
+   
+}
+#last > p {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+}

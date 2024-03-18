@@ -1,0 +1,483 @@
+/*
+Theme Name: SAAMURAI 整体院
+Theme URI: https://example.com
+Description: SAMURAI ENGINEERのWordPress教材
+Version: 1.0.0
+Author: SAMURAI ENGINEER
+Author URI: https://example.com
+*/
+
+/* PC用 */
+@media screen and (min-width: 768px) {
+
+    #back-btn {
+        display: none;
+        padding: 40px 10px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+      }
+
+
+#sp-about-img,#top-logo-sp,#about-content-sp {
+    display: none;
+}
+
+#nav-pc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div > a:hover {
+    text-decoration: underline;
+}
+div > a:visited {
+    text-decoration: none;
+}
+
+div > a:link {
+    text-decoration: none;
+}
+
+div > a:active {
+    text-decoration: none;
+}
+
+
+
+
+header > #about-img {
+    width: 70%;
+   position: relative;
+   border-radius: 300px 0 0 300px;
+}
+
+#about-img {
+    width: 70%;
+   position: relative;
+   border-radius: 300px 0 0 300px;
+}
+#nav-pc > #about-list {
+    display: flex;
+    align-items: center;
+}
+
+#about-list > a {
+    color: #468459;
+}
+
+#about-content {
+    text-align: center;
+    background-image: 
+    radial-gradient(60px 60px, #F0F5E1,white);
+    background-position: top 20px right 20px;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 30%;
+    float: left;
+    margin-top: 70px;
+}
+
+#about-content > p {
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 28px; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px 0 0 0;
+}
+
+#about-content > span {
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 18px; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: normal;
+}
+
+main > #aboutus {
+   margin-left: 30px;
+}
+
+
+/* 記事 */
+#article-separate {
+    display: block;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.article-box {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+#article-left > img {
+    border-radius: 50%;
+}
+
+#article-right > p {
+    margin: 10px;
+}
+#article-right > h3 {
+    color:#0C4324;
+}
+#article-left,#article-right {
+    margin: 10px;
+}
+
+#article-right {
+    width: 50%;
+}
+#page {
+    text-align: center;
+}
+
+/* お知らせ */
+
+#info-content {
+    display: flex;
+    justify-content: center;
+}
+#infomation-left {
+    margin: 20px 5px 20px 200px;
+   
+}
+#infomation-right {
+    margin: 20px 200px 20px 5px;
+
+}
+#info-top {
+    text-align: center;
+}
+#infomation-left > h3 , #info-title {
+    color: #468459;
+}
+
+#infomation-left > img {
+    margin-bottom: 10px;
+}
+
+
+#info-title::after {
+    content: url("top-images/slash2.png");
+}
+
+#info-title::before {
+    content: url("top-images/slash1.png");
+}
+#info {
+    background-color: #F0F5E1;
+    margin-top: -50px;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: #F0F5E1;
+}
+#footer > a:hover {
+    text-decoration: underline;
+}
+#footer > a:visited {
+    text-decoration: none;
+}
+
+#footer > a:link {
+    text-decoration: none;
+}
+
+#footer > a:active {
+   
+    text-decoration: none;
+}
+#footer > a {
+    color: black;
+    margin: 10px;    
+}
+#last {
+    text-align: center;
+    background-color:#468459;
+   
+}
+#last > p {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+
+ /* スマホ隠す用 */
+ #nav-sp,
+ #menu-sp,
+ #sp-map {
+   display: none;
+ }
+}
+
+
+/* スマホ用 */
+
+@media screen and (max-width: 767px) {
+    
+  
+   
+    body {
+        min-width: 375px;
+        margin: 0;
+    }
+    #nav-pc,#about-img {
+        display: none;
+    }
+
+    #menu-sp {
+        float: right;
+        padding: 10px 0 0 0;
+    }
+
+    #nav-sp {
+        display: none;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+    }
+    #close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    #logo-sp {
+        margin: 20px 0 30px 20px;
+    }
+
+     a {
+        display: block;
+      }
+      #nav-sp > a:link {
+        color: black;
+      }
+      #nav-sp > h3 {
+        color: #0C4324;
+        text-align: center;
+      }
+      #nav-sp > a:visited {
+        color: black;
+      }
+      #nav-sp > a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+      #nav-sp > a:active {
+        color: black;
+      }
+      #nav-sp > .menu {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        margin: 0;
+        height: 44px;
+        font-size: 16px;
+      }
+      #nav-sp > #button-sp {
+        text-align: center;
+      }
+      #sp-about-img {
+        width: 100%;
+        float: right;
+        border-radius: 0 0 0 100%;
+        margin-bottom: 10px;
+      }
+      #aboutus {
+        margin: 10px 0 0 10px;
+      }
+      #top-logo {
+        display: none;
+      }
+      #top-logo-sp {
+        float: left;
+        padding: 10px 0 0 0;
+      }
+      #about-content  {
+        color: white;
+      }
+     
+      
+   
+   
+#about-content-sp > p {
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 28px; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    padding: 0 0 20px 0;
+    position: absolute;
+    top: 430px;
+    left: 10px;
+    background-image: 
+    radial-gradient(35px 35px, #F0F5E1,white);
+    background-position: bottom -5px left -5px;
+    background-repeat: no-repeat;
+    background-color: white;
+   
+} 
+
+#about-content-sp > span {
+    text-decoration: underline dashed; 
+    color: #468459;
+    font-size: 18px; 
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: normal;
+    margin-left: 10px;
+    position: absolute;
+    top: 500px;
+    left: 10px;
+   
+}
+     
+header {
+    display:block;
+}
+      
+      /* スマホ用メイン */
+
+#article-separate {
+    display: block;
+    justify-content: center;
+    text-align: center;   
+}
+.article-box {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    
+}
+#article-left > img {
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+#article-right > p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#article-right > h3 {
+    color:#0C4324;
+}
+
+
+#page {
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+
+
+    /* スマホインフォ共有 */
+
+#info-content {
+    display: block;
+    justify-content: center;
+}
+
+#info-top {
+    text-align: center;
+}
+#infomation-left > h3 , #info-title {
+    color: #468459;
+}
+
+
+#infomation-left > img {
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#infomation-left > a {
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+#infomation-left > h3, #infomation-left > p{
+   margin-left: 30px;
+}
+
+
+#info-title::after {
+    content: url("top-images/slash2.png");
+}
+
+#info-title::before {
+    content: url("top-images/slash1.png");
+}
+#info {
+    background-color: #F0F5E1;
+    margin-top: -50px;
+}
+#infomation-right{
+    text-align: center;
+}
+#pc-map {
+    display: none;
+}
+
+#footer {
+    background-color: #F0F5E1;
+    text-align: center;
+
+}
+#footer > a:hover {
+    text-decoration: underline;
+    color: #0C4324
+}
+#footer > a:visited {
+    text-decoration: none;
+    color: #0C4324
+}
+
+#footer > a:link {
+    text-decoration: none;
+    color: #0C4324
+}
+
+#footer > a:active {
+    text-decoration: none;
+    color: #0C4324
+}
+#footer > a {
+    color: #0C4324;
+    padding: 30px;
+}
+#last {
+    text-align: center;
+    background-color:#468459;
+    padding: 0 10px 0 0 10px;
+   
+}
+#last > p {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+
+#back-btn {
+    display: none;
+    padding: 40px 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+
+}
